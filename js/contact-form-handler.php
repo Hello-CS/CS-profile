@@ -8,6 +8,7 @@ if($_POST["submit"]) {
     $mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
     mail($recipient, $subject, $mailBody);
     sleep(1);
+    echo "Thank you! Your form has been sent!"
     header("Location:http://hello-cs.github.io/CS-profile"); // Set here redirect page or destination page
 }
 ?>
