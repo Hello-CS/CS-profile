@@ -930,13 +930,19 @@ body.section-switching.up .animation-block{
 .portfolio-filters > li > a:hover{
 	color:#202020;
 }
+
+.inner > img {
+	float: left;
+    width:  400px;
+    height: 400px;
+    object-fit:cover;
+}
+
 .portfolio-items{
 	margin:-5px;
 	overflow:visible !important;
 }
-.portfolio-items > li{
-	width:33.3333%;
-}
+
 .portfolio-items > li > .inner{
 	margin:5px;
 	position:relative;
@@ -990,13 +996,13 @@ body.section-switching.up .animation-block{
 }
 .portfolio-items > li > .inner > .overlay > .view-project{
 	font-size:18px;
-	line-height:18px;
+	line-height:450px;
 	vertical-align:middle;
 	position:absolute;
 	top:50%;
 	margin-top:-29px;
-	color:#FFF;
-	color:rgba(255,255,255,.6);
+	color:rgb(255, 255, 255);
+	color:rgba(235, 235, 235, 0.6);
 	text-decoration:none;
 	left:0;
 	right:0;
@@ -1008,11 +1014,11 @@ body.section-switching.up .animation-block{
 	transition:all .3s cubic-bezier(.785,.135,.15,.86);
 }
 .portfolio-items > li > .inner > .overlay > .view-project:hover{
-	color:#FFF;
+	color:rgb(57, 252, 187);
 }
 /*== Project Popup ==*/
 .mfp-bg{
-	background:#303F9F;
+	background:#565866;
 }
 .my-mfp-zoom-in .zoom-anim-dialog {
 	opacity: 0;
@@ -1145,7 +1151,7 @@ body.section-switching.up .animation-block{
 }
 .contact-block .section-header{
 	margin-bottom:80px;
-	left:50%;
+	left:10%;
 }
 
 .contact-block {
@@ -1217,7 +1223,7 @@ body.section-switching.up .animation-block{
 .contact-info > p{
 	display:relative;
 	float:left;
-	font-size:16px;
+	font-size:18px;
 	line-height:1.6em;
 	font-style:italic;
 	color:rgba(0,0,0,.45);
