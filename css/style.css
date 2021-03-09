@@ -1014,7 +1014,8 @@ body.section-switching.up .animation-block{
 	transition:all .3s cubic-bezier(.785,.135,.15,.86);
 }
 .portfolio-items > li > .inner > .overlay > .view-project:hover{
-	color:rgb(57, 252, 187);
+	color: black;
+	font-size: 20px;
 }
 /*== Project Popup ==*/
 .mfp-bg{
